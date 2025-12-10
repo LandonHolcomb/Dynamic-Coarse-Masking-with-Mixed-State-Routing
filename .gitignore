@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data
+data/
+*.json
+*.log
+*.csv
+*.pkl
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Results
+results/
+outputs/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Job outputs (if accidentally committed)
+*.out
+*.err
